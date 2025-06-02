@@ -1,9 +1,8 @@
 """
 Models module for company classification.
-Handles model loading and embedding generation.
+Handles embedding models and other ML components.
 """
 
 from .embeddings import EmbeddingManager
-from .nli import NLIManager
 
-__all__ = ['EmbeddingManager', 'NLIManager'] 
+__all__ = ['EmbeddingManager'] 
